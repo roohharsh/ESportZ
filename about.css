@@ -1,0 +1,40 @@
+.about{
+    background-color: #7c38e5a8;
+}
+
+.about .heading{
+    text-shadow: 5px 5px 13px white;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    color: #ffffffa3;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.about .subheading{
+    margin-left: 40px;
+    font-size: 25px;
+}
+.about .color{
+    color: #ffff0070;
+}
+
+.about .details{
+    display: flex;
+    margin-left: 40px;
+    letter-spacing: 0;
+    position: relative;
+    margin-top: 60px;
+    bottom: 50px;
+    align-items: center;
+}
+.about .text{
+    width: 200%;
+}
+
+.about .details img{
+    width: 50%;
+    height: 84%;
+    margin-left: 114px;
+}

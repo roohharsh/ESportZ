@@ -1,0 +1,125 @@
+/* contact us section starts  */
+.contact{
+    background-color: #cfb1ff9c;
+}
+.contact .heading{
+    text-shadow: 5px 5px 13px white;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    color: #ffffffa3;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.contact .content{
+    display: flex;
+    justify-content: space-around;
+    width: 93%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 80px;
+    margin-top: 135px;
+}
+.contact .column{
+    width: 45%;
+}
+.contact .text{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+.contact .title{
+    margin-bottom: 3px;
+}
+.contact .row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+}
+.contact i{
+    font-size: 25px;
+    margin-right: 25px;
+    color: blue;
+}
+
+.contact .row i:hover{
+    animation: shake 1s;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation: shake 1s infinite; */
+} 
+@keyframes shake{
+    10%{transform:rotate(20deg);}
+    20%{transform:rotate(-20deg);}
+    30%{transform:rotate(20deg);}
+    40%{transform:rotate(-20deg);}
+}
+
+.contact .right form .fields{
+    display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+    height: 45px;
+    width: 80%;
+    margin-bottom: 15px;
+}
+.contact .right form .textarea{
+    height: 80px;
+    width: 80%;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus{
+    border-color: #b3b3b3;
+}
+.contact .right form .textarea textarea{
+  padding-top: 10px;
+  resize: none;
+}
+.contact .right form .btn{
+  display: flex;
+  align-items: center;
+}
+.right form .btn button{
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px;
+    width: 30%;
+    color: #ffff00a6;
+    background-color: #7558a1;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 16px;
+}
+.right form .btn button:hover{
+    color: #7558a1;
+    background-color: #cfb1ff9c;
+    border: #7558a1;
+}
+
+/* footer section starts  */
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: #ffff0078;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}

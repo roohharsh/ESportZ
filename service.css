@@ -1,0 +1,54 @@
+.service{
+    background-color: #7c38e56e;
+}
+
+.service .heading{
+    text-shadow: 5px 5px 13px white;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    color: #ffffffcc;
+    font-size: 33px;
+    margin-bottom: 40px;
+}
+
+.service .box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    align-items: center;
+}
+
+.box1{
+    margin-top: 60px;
+}
+.box2{
+    margin-top: 40px;
+}
+.box3{
+    margin-top: 95px;
+    position: relative;
+    bottom: 55px;
+}
+
+.service .box img{
+    width: 100%;
+    height: 150px;
+    border: 3px solid #7c38e52b;
+    border-radius: 10px;
+}
+
+
+.service .box .text{
+    background-color: #7c38e52b;
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+}
+
+
+.service .box .text .subheading{
+    color: #ffff0099;
+    font-weight: bold;
+
+}
