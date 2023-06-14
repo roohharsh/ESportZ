@@ -31,6 +31,10 @@
     bottom: 55px;
 }
 
+.display1{
+    display: none;
+}
+
 .service .box img{
     width: 100%;
     height: 150px;

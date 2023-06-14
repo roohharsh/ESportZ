@@ -1,0 +1,137 @@
+@media (min-width:0) and (max-width:750px) {
+    .home .text {
+        width: 75%;
+    }
+
+    .home .btn button {
+        width: 15%;
+    }
+
+    .about .details {
+        display: block;
+    }
+
+    .about .text {
+        font-size: 15px;
+        width: 98%;
+    }
+
+    .about .img {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .about .details img {
+        width: 60%;
+        margin: 14px auto;
+    }
+
+    .service .box {
+        display: block;
+    }
+
+    .contact .content {
+        display: block;
+    }
+}
+
+@media (min-width:750px) and (max-width:1000px) {
+    .about .details img {
+        width: 70%;
+        margin-left: 72px;
+    }
+
+    .about .text {
+        font-size: 15px;
+    }
+
+    .service .text {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:0) and (max-width:500px) {
+    .navbar .text {
+        font-size: 11px;
+    }
+
+    .navbar {
+        padding-left: 0px;
+    }
+
+    .home .heading {
+        font-size: 24px;
+        margin-left: 20px;
+    }
+
+    .home .subheading {
+        font-size: 21px;
+        margin-left: 20px;
+    }
+
+    .home .text {
+        margin-left: 20px;
+        width: 82%;
+    }
+
+    .home .btn button {
+        width: 27%;
+        margin-left: 20px;
+    }
+    .about .subheading{
+        margin-left: 22px;
+    }
+    .about .text{
+        width: 90%;
+    }
+    .about .details{
+        margin-left: 22px;
+    }
+    .about .details img{
+        margin-left: 53px;
+    }
+
+    .service .box{
+        margin-left: 20px;
+    }
+    .service .box img{
+        width: 93%;
+    }
+    .service .box .text{
+        width: 80%;
+        margin-top: 22px;
+    }
+    .display1{
+        display: block;
+    }
+    .display2{
+        display: none;
+    }
+    .contact .text{
+        margin-left: 15px;
+    width: 150%;
+    }
+    .contact .row{
+        margin-left: 15px;
+        width: 185%;
+    }
+    .contact form{
+        margin-left: 14px;
+    }
+    .contact .right form .field input, .contact .right form .textarea textarea{
+        width: 170%;
+    }
+    .contact .right form .btn{
+        width: 213%;
+    }
+    .right form .btn button{
+        width: 50%;
+    }
+
+}
+
+
+
+
+

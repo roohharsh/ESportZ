@@ -10,7 +10,27 @@ body {
   html {
     scroll-behavior: smooth;
   }
+
+  #menuToggle{
+    display: none;
+  }
   
+  .scroll{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .scroll i{
+    font-weight: bold;
+    font-size: 23px;
+    color: blue;
+  }
+
   .navbar {
     display: flex;
     padding: 5px 14px;
